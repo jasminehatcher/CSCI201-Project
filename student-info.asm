@@ -17,3 +17,11 @@
     syscall
     sub $a0, 3         # 5 (8 - 3 = 5)
     syscall
+	sub $a0, 5         # 0 (5 - 5 = 0)
+    syscall
+    addi $a0, 1        # 1 (0 + 1 = 1)
+    syscall
+    addi $a0, 6        # 7 (1 + 6 = 7)
+    syscall
+    sub $a0, 2         # 5 (7 - 2 = 5)
+    syscall
