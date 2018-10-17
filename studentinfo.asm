@@ -25,3 +25,6 @@
     syscall
     sub $a0, 2         # 5 (7 - 2 = 5)
 	syscall
+	addi $v0, 10       # 11 (1 + 10 = 11)
+    addi $a0, 5        # line break (5 + 5 = 10)
+    syscall
