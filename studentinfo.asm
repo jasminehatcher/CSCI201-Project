@@ -36,3 +36,9 @@
     syscall
     sub $a0, 17        # c (116 - 17 = 99)
 	syscall
+    addi $a0,5         # h (99 + 5 = 104)
+    syscall
+    sub $a0, 3         # e (104 - 3 = 101)
+    syscall 
+    addi $a0, 13       # r (101 + 13 = 114)
+    syscall 
