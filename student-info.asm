@@ -42,3 +42,7 @@
     syscall 
     addi $a0, 13       # r (101 + 13 = 114)
     syscall 
+	sub $a0, 70        # comma (114 - 70 = 44)
+    syscall
+    sub $a0, 12        # space (44 - 12 = 32)
+    syscall
