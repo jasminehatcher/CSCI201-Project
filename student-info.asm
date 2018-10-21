@@ -46,3 +46,9 @@
     syscall
     sub $a0, 12        # space (44 - 12 = 32)
     syscall
+	addi $a0, 42       # J (32 + 42 = 74)
+    syscall
+    addi $a0, 23       # a (74 + 23 = 97)
+    syscall
+    addi $a0, 18       # s (97 + 18 = 115)
+    syscall
