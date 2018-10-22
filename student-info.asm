@@ -52,3 +52,11 @@
     syscall
     addi $a0, 18       # s (97 + 18 = 115)
     syscall
+	sub $a0, 6         # m (115 - 6 = 109)
+    syscall
+    sub $a0, 4         # i (109 - 4 = 105)
+    syscall
+    addi $a0, 5        # n (105 + 5 = 110)
+    syscall
+    sub $a0, 9         # e (110 - 9 = 101)
+    syscall
