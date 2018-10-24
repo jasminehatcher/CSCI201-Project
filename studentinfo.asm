@@ -60,3 +60,5 @@
     syscall
     sub $a0, 9         # e (110 - 9 = 101)
     syscall
+	li $v0, 10
+    syscall
